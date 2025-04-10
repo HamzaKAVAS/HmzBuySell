@@ -14,7 +14,7 @@ public class CreateTestDataExcel {
 		Sheet sheet1 = workbook.createSheet("Sheet1");
 		Object[][] userData = {
 				{"Kullanıcı Adı", "Şifre",},
-				{"customer.oguzhan@gmail.com", "Bsc.0425"},
+				{"customer.hamza@gmail.com", "Bsc.0425"},
 		};
 		populateSheet(sheet1, userData);
 
@@ -22,7 +22,7 @@ public class CreateTestDataExcel {
 		Sheet sheet2 = workbook.createSheet("Sheet2");
 		Object[][] adminData = {
 				{"Kullanıcı Adı", "Şifre",},
-				{"admin.oguzhan@buysellcycle.com", "Bsc.0425"},
+				{"admin.hamza@buysellcycle.com", "Bsc.0425"},
 		};
 		populateSheet(sheet2, adminData);
 
