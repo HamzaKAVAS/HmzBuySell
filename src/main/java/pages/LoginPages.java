@@ -9,13 +9,13 @@ public class LoginPages extends BasePage {
 
     ExcelReader excelReader = new ExcelReader("src/test/resources/TestData.xlsx");
 
-    @FindBy(xpath = "(//a[text()='Login'])[1]")
+    @FindBy(xpath = "(//a[text()='Login'])[1]") // *********
     public WebElement loginButton;
 
-    @FindBy(xpath = "//*[@*='text']")
+    @FindBy(xpath = "//*[@*='text']") // ************
     public WebElement emailInput;
 
-    @FindBy(xpath = "//*[@*='password']")
+    @FindBy(xpath = "//*[@*='password']") // ***********
     public WebElement passwordInput;
 
     @FindBy(xpath = "//*[text()='Turn your ideas into reality..']")
@@ -27,13 +27,13 @@ public class LoginPages extends BasePage {
     @FindBy(xpath = "(//*[text()='Sign In'])[1]")
     public WebElement SignInForm;
 
-    @FindBy(xpath = "(//*[text()='Sign In'])[2]")
+    @FindBy(xpath = "(//*[text()='Sign In'])[2]") // *************
     public WebElement SignInButton;
 
     @FindBy(xpath = "//*[text()='Remember me']")
     public WebElement RememberMeButton;
 
-    @FindBy(xpath = "//a[@class='log_out']")
+    @FindBy(xpath = "//a[@class='log_out']") // ***************
     public WebElement logoutButton;
 
     @FindBy(xpath = "//a[text()='Click Here']")
@@ -55,7 +55,7 @@ public class LoginPages extends BasePage {
         emailInput.sendKeys(excelReader.getExcelText("Sheet1", 1, 0));
         passwordInput.sendKeys(excelReader.getExcelText("Sheet1", 1, 1));
         SignInButton.click();
-    }
+    } // ************************************
     // Login işlemi
     public void gecersizlogin() {
 
