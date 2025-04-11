@@ -151,3 +151,7 @@
 2025-04-11 18:33:15 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-11 18:33:55 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-01] The Purchase History menu item should be visible and active in the Dashboard sideBar.
 2025-04-11 18:33:55 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-11 19:21:58 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-11 19:22:02 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-11 19:22:44 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-11 19:22:44 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.

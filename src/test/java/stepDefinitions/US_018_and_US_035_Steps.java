@@ -119,6 +119,10 @@ public class US_018_and_US_035_Steps {
     @Then("See if the Details, Amount, Delivery Status, Payment Status, Action headings are displayed.")
     public void seeIfTheDetailsAmountDeliveryStatusPaymentStatusActionHeadingsAreDisplayed() {
 
-
+        Assertions.assertTrue(userDashboardPage.purchaseHistoryDetailsText.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.purchaseHistoryAmountText.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.purchaseHistoryDeliveryStatusText.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.purchaseHistoryPaymentStatusText.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.purchaseHistoryActionText.isDisplayed());
     }
 }
