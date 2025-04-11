@@ -14,6 +14,24 @@ public class UserDashboardPage {
     @FindBy(xpath = "(//*[@*='position-relative d-flex align-items-center'])[1]")
     public WebElement purchaseHistorySidebarLink;
 
+    @FindBy(xpath = "//*[.='Purchase History']")
+    public WebElement purchaseHistoryTextH3;
+
+    @FindBy(xpath = "//*[.='Details']")
+    public WebElement purchaseHistoryDetailsText;
+
+    @FindBy(xpath = "//*[.='Amount']")
+    public WebElement purchaseHistoryAmountText;
+
+    @FindBy(xpath = "//*[.='Delivery Status']")
+    public WebElement purchaseHistoryDeliveryStatusText;
+
+    @FindBy(xpath = "//*[.='Payment Status']")
+    public WebElement purchaseHistoryPaymentStatusText;
+
+    @FindBy(xpath = "//*[.='Action']")
+    public WebElement purchaseHistoryActionText;
+
 
 
 

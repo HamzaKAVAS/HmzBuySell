@@ -112,9 +112,13 @@ public class US_018_and_US_035_Steps {
     @Then("Verify that the Purchase History page has loaded.")
     public void verifyThatThePurchaseHistoryPageHasLoaded() {
 
+        Assertions.assertTrue(userDashboardPage.purchaseHistoryTextH3.isDisplayed());
+        ReusableMethods.wait(2);
     }
 
     @Then("See if the Details, Amount, Delivery Status, Payment Status, Action headings are displayed.")
     public void seeIfTheDetailsAmountDeliveryStatusPaymentStatusActionHeadingsAreDisplayed() {
+
+
     }
 }
