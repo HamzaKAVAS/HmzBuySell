@@ -32,6 +32,15 @@ public class UserDashboardPage {
     @FindBy(xpath = "//*[.='Action']")
     public WebElement purchaseHistoryActionText;
 
+    @FindBy(xpath = "(//*[@*='amazy_status_btn'])[1]")
+    public WebElement downloadButtonUnderAction;
+
+    @FindBy(xpath = "(//*[@*='amazy_status_btn purchase_show'])[1]")
+    public WebElement hamburgerButtonUnderAction;
+
+    @FindBy(xpath = "(//*[@*='close_modal_icon'])[1]")
+    public WebElement closeButtonOnTheOrderPage;
+
 
 
 
