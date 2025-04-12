@@ -5,6 +5,7 @@ import io.cucumber.java.en.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import pages.LoginPages;
@@ -156,19 +157,27 @@ public class US_018_and_US_035_Steps {
     @Then("On the page that opens, verify that the invoice is displayed.")
     public void onThePageThatOpensVerifyThatTheInvoiceIsDisplayed() {
 
-        Assertions.assertTrue(userDashboardPage.closeButtonOnTheOrderPage.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.closeButtonOnTheOrderDocument.isDisplayed());
         ReusableMethods.wait(2);
     }
 
     @And("Click the close button on the page.")
     public void clickTheCloseButtonOnThePage() {
 
-        userDashboardPage.closeButtonOnTheOrderPage.click();
+        userDashboardPage.closeButtonOnTheOrderDocument.click();
         ReusableMethods.wait(1);
     }
 
     @Then("View Order code,Package code,Delivery Process,Order Details,Order Summary,Payment Type information")
     public void viewOrderCodePackageCodeDeliveryProcessOrderDetailsOrderSummaryPaymentTypeInformation() {
 
+        Assertions.assertTrue(userDashboardPage.orderCodeOnTheOrderDocument.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.packageCodeOnTheOrderDocument.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.deliveredTextOnTheOrderDocument.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.orderSummaryTextOnTheOrderDocument.isDisplayed());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.wait(1);
+        Assertions.assertTrue(userDashboardPage.orderDetailOnTheOrderDocument.isDisplayed());
+        Assertions.assertTrue(userDashboardPage.paymentTypeCashOnDeliveryImage.isDisplayed());
     }
 }
