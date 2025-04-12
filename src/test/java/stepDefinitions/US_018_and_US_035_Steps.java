@@ -141,5 +141,21 @@ public class US_018_and_US_035_Steps {
 
     @And("Click the download button under Action.")
     public void clickTheDownloadButtonUnderAction() {
+
+    }
+
+    @And("Click on the hamburger button under Action.")
+    public void clickOnTheHamburgerButtonUnderAction() {
+
+    }
+
+    @Then("On the page that opens, verify that the invoice is displayed.")
+    public void onThePageThatOpensVerifyThatTheInvoiceIsDisplayed() {
+
+    }
+
+    @And("Click the close button on the page.")
+    public void clickTheCloseButtonOnThePage() {
+
     }
 }
