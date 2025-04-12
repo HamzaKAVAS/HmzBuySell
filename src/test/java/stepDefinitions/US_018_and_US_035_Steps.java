@@ -138,4 +138,8 @@ public class US_018_and_US_035_Steps {
 
         Assertions.assertFalse(userDashboardPage.purchaseHistoryDetailsText.isSelected());
     }
+
+    @And("Click the download button under Action.")
+    public void clickTheDownloadButtonUnderAction() {
+    }
 }

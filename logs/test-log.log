@@ -159,3 +159,16 @@
 2025-04-11 19:40:38 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-11 19:41:30 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
 2025-04-11 19:41:30 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-12 22:01:21 [main] INFO  runners.TestRunner - Cucumber Test Runner başlatılıyor...
+2025-04-12 22:01:21 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-01] The Purchase History menu item should be visible and active in the Dashboard sideBar.
+2025-04-12 22:01:30 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-12 22:02:01 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-01] The Purchase History menu item should be visible and active in the Dashboard sideBar.
+2025-04-12 22:02:01 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-12 22:02:01 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-12 22:02:02 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-12 22:02:35 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-12 22:02:35 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-12 22:02:35 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
+2025-04-12 22:02:37 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-12 22:03:11 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
+2025-04-12 22:03:11 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
