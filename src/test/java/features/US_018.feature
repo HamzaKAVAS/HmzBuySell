@@ -44,3 +44,17 @@ Feature: As a registered user, I would like to have a page on my dashboard where
     And Click the close button on the page.
     And Press the logout button.
     And Close the page.
+
+  Scenario: [US_018 => TC-05] Order code, Package code, Delivery Process, Order Details, Order Summary, Payment Type
+                              should be displayed among the invoice display information.
+
+    Given Go to the relevant URL and verify that the user panel has been loaded after completing the relevant login procedures.
+    And Click Purchase History in the left sidebar.
+    Then Verify that the Purchase History page has loaded.
+    And Click on the hamburger button under Action.
+    Then On the page that opens, verify that the invoice is displayed.
+    Then View Order code,Package code,Delivery Process,Order Details,Order Summary,Payment Type information
+    And Click the close button on the page.
+    And Press the logout button.
+    And Close the page.
+

@@ -166,4 +166,9 @@ public class US_018_and_US_035_Steps {
         userDashboardPage.closeButtonOnTheOrderPage.click();
         ReusableMethods.wait(1);
     }
+
+    @Then("View Order code,Package code,Delivery Process,Order Details,Order Summary,Payment Type information")
+    public void viewOrderCodePackageCodeDeliveryProcessOrderDetailsOrderSummaryPaymentTypeInformation() {
+
+    }
 }

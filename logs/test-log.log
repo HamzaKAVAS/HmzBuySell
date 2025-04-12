@@ -172,3 +172,7 @@
 2025-04-12 22:02:37 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-12 22:03:11 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
 2025-04-12 22:03:11 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-12 22:24:46 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-04] You should be able to download and view invoice under Action in Purchase History list.
+2025-04-12 22:24:48 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-12 22:25:29 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-04] You should be able to download and view invoice under Action in Purchase History list.
+2025-04-12 22:25:29 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
