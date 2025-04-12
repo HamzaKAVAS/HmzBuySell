@@ -125,4 +125,17 @@ public class US_018_and_US_035_Steps {
         Assertions.assertTrue(userDashboardPage.purchaseHistoryPaymentStatusText.isDisplayed());
         Assertions.assertTrue(userDashboardPage.purchaseHistoryActionText.isDisplayed());
     }
+
+    @And("Click on the Payment Status heading.")
+    public void clickOnThePaymentStatusHeading() {
+
+        userDashboardPage.purchaseHistoryPaymentStatusText.click();
+        ReusableMethods.wait(2);
+    }
+
+    @Then("See filtering by Payment Status.")
+    public void seeFilteringByPaymentStatus() {
+
+        Assertions.assertFalse(userDashboardPage.purchaseHistoryDetailsText.isSelected());
+    }
 }
