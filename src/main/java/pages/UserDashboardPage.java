@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class UserDashboardPage {
 
-    public UserDashboardPage(){
-        PageFactory.initElements(DriverManager.getDriver(),this);
+    public UserDashboardPage() {
+        PageFactory.initElements(DriverManager.getDriver(), this);
     }
 
     @FindBy(xpath = "(//*[@*='position-relative d-flex align-items-center'])[1]")
@@ -58,28 +58,5 @@ public class UserDashboardPage {
 
     @FindBy(xpath = "//*[@*='Cash On Delivery']")
     public WebElement paymentTypeCashOnDeliveryImage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

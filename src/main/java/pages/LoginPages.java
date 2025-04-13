@@ -12,10 +12,10 @@ public class LoginPages extends BasePage {
     @FindBy(xpath = "(//a[text()='Login'])[1]") // *********
     public WebElement loginButton;
 
-    @FindBy(xpath = "//*[@*='text']") // ************
+    @FindBy(xpath = "//*[@*='text']") // ************ adminde
     public WebElement emailInput;
 
-    @FindBy(xpath = "//*[@*='password']") // ***********
+    @FindBy(xpath = "//*[@*='password']") // *********** adminde
     public WebElement passwordInput;
 
     @FindBy(xpath = "//*[text()='Turn your ideas into reality..']")
@@ -24,7 +24,7 @@ public class LoginPages extends BasePage {
     @FindBy(xpath = "//img[@class='img-fluid']")
     public WebElement RightImage;
 
-    @FindBy(xpath = "(//*[text()='Sign In'])[1]")
+    @FindBy(xpath = "(//*[text()='Sign In'])[1]") // *********** admin
     public WebElement SignInForm;
 
     @FindBy(xpath = "(//*[text()='Sign In'])[2]") // *************
@@ -33,7 +33,7 @@ public class LoginPages extends BasePage {
     @FindBy(xpath = "//*[text()='Remember me']")
     public WebElement RememberMeButton;
 
-    @FindBy(xpath = "//a[@class='log_out']") // ***************
+    @FindBy(xpath = "//a[@class='log_out']") // *************** adminde
     public WebElement logoutButton;
 
     @FindBy(xpath = "//a[text()='Click Here']")
