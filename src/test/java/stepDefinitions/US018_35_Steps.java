@@ -14,7 +14,7 @@ import utilities.ExcelReader;
 import utilities.JSUtilities;
 import utilities.ReusableMethods;
 
-public class US018_Steps {
+public class US018_35_Steps {
 
     private static final Logger logger = LogManager.getLogger();
     WebDriver driver = Hooks.getDriver();
