@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.nio.file.Watchable;
-
 public class AdminProfileNotificationsPage {
 
     public AdminProfileNotificationsPage(){
@@ -15,6 +13,9 @@ public class AdminProfileNotificationsPage {
 
     @FindBy(id = "profile_pic")
     public WebElement adminProfilePicture;
+
+    @FindBy(xpath = "//*[@*='fa fa-bell']")
+    public WebElement notificationBell;
 
 
 
