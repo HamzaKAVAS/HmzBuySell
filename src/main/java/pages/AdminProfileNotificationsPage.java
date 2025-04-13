@@ -11,6 +11,9 @@ public class AdminProfileNotificationsPage {
         PageFactory.initElements(DriverManager.getDriver(),this);
     }
 
+    @FindBy(id = "sign_in_btn")
+    public WebElement adminSignInButton;
+
     @FindBy(id = "profile_pic")
     public WebElement adminProfilePicture;
 

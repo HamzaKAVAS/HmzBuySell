@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import pages.AdminProfileNotificationsPage;
 import pages.LoginPages;
 import pages.UserDashboardPage;
 import utilities.ExcelReader;
@@ -20,6 +21,7 @@ public class US018_35_Steps {
     WebDriver driver = Hooks.getDriver();
     LoginPages loginPages = new LoginPages(driver);
     UserDashboardPage userDashboardPage = new UserDashboardPage();
+    AdminProfileNotificationsPage adminProfileNotificationsPage = new AdminProfileNotificationsPage();
     ExcelReader excelReader = new ExcelReader("src/test/resources/TestData.xlsx");
     Actions actions = new Actions(driver);
 
@@ -179,5 +181,42 @@ public class US018_35_Steps {
         ReusableMethods.wait(1);
         Assertions.assertTrue(userDashboardPage.orderDetailOnTheOrderDocument.isDisplayed());
         Assertions.assertTrue(userDashboardPage.paymentTypeCashOnDeliveryImage.isDisplayed());
+    }
+
+    @And("Enter a valid email address in the Email address or phone field.")
+    public void enterAValidEmailAddressInTheEmailAddressOrPhoneField() {
+
+        loginPages.emailInput.sendKeys(excelReader.getExcelText("Sheet2", 1, 0));
+        ReusableMethods.wait(2);
+    }
+
+    @And("Click on the sign in button.")
+    public void clickOnThesignInButton() {
+
+        adminProfileNotificationsPage.adminSignInButton.click();
+        ReusableMethods.wait(2);
+    }
+
+    @Then("Verify that the admin panel is loaded.")
+    public void verifyThatTheAdminPanelIsLoaded() {
+
+        Assertions.assertTrue(adminProfileNotificationsPage.adminProfilePicture.isDisplayed());
+        ReusableMethods.wait(2);
+    }
+
+    @Then("Verify that the notification icon is visible.")
+    public void verifyThatTheNotificationIconIsVisible() {
+
+        Assertions.assertTrue(adminProfileNotificationsPage.notificationBell.isDisplayed());
+        ReusableMethods.wait(2);
+    }
+
+    @And("Hover over the admin profile photo and press Logout.")
+    public void hoverOverTheAdminProfilePhotoAndPressLogout() {
+
+        actions.moveToElement(adminProfileNotificationsPage.adminProfilePicture).perform();
+        ReusableMethods.wait(2);
+        actions.click(loginPages.logoutButton).perform();
+        ReusableMethods.wait(2);
     }
 }
