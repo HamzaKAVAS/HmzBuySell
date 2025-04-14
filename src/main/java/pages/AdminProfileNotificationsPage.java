@@ -23,6 +23,12 @@ public class AdminProfileNotificationsPage {
     @FindBy(xpath = "//*[@*='notification_count']")
     public WebElement notificationCount;
 
+    @FindBy(xpath = "//*[.='Setting']")
+    public WebElement notificationBellSetting;
+
+    @FindBy(xpath = "(//h3)[1]")
+    public WebElement personalNotificationSettingText;
+
 
 
 
