@@ -19,3 +19,13 @@ Feature: As an administrator, I would like to have a notifications section on th
     And Hover over the admin profile photo and press Logout.
     And Close the page.
 
+  Scenario: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+
+    Given Go to the relevant URL and verify that the admin panel has been loaded after completing the relevant login procedures.
+    And Click on the Notification icon.
+    And Click on the Setting button.
+    Then Verify that the Personal Notification Setting page opens.
+    And Hover over the admin profile photo and press Logout.
+    And Close the page.
+
+

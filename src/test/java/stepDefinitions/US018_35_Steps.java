@@ -241,4 +241,18 @@ public class US018_35_Steps {
         Assertions.assertTrue(adminProfileNotificationsPage.notificationCount.isDisplayed());
         ReusableMethods.wait(2);
     }
+
+    @And("Click on the Notification icon.")
+    public void clickOnTheNotificationIcon() {
+        
+    }
+
+    @And("Click on the Setting button.")
+    public void clickOnTheSettingButton() {
+        
+    }
+
+    @Then("Verify that the Personal Notification Setting page opens.")
+    public void verifyThatThePersonalNotificationSettingPageOpens() {
+    }
 }
