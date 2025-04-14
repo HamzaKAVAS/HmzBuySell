@@ -286,4 +286,16 @@ public class US018_35_Steps {
         Assertions.assertTrue(adminProfileNotificationsPage.updateSuccessfullyText.isDisplayed());
         ReusableMethods.wait(2);
     }
+
+    @And("Click View.")
+    public void clickView() {
+
+
+    }
+
+    @Then("Verify that the notification page opens.")
+    public void verifyThatTheNotificationPageOpens() {
+
+
+    }
 }
