@@ -244,15 +244,22 @@ public class US018_35_Steps {
 
     @And("Click on the Notification icon.")
     public void clickOnTheNotificationIcon() {
-        
+
+        JSUtilities.clickWithJS(driver, adminProfileNotificationsPage.notificationBell);
+        ReusableMethods.wait(2);
     }
 
     @And("Click on the Setting button.")
     public void clickOnTheSettingButton() {
-        
+
+        adminProfileNotificationsPage.notificationBellSetting.click();
+        ReusableMethods.wait(2);
     }
 
     @Then("Verify that the Personal Notification Setting page opens.")
     public void verifyThatThePersonalNotificationSettingPageOpens() {
+
+        Assertions.assertTrue(adminProfileNotificationsPage.personalNotificationSettingText.isDisplayed());
+        ReusableMethods.wait(2);
     }
 }

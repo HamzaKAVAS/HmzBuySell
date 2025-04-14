@@ -253,3 +253,31 @@
 2025-04-14 14:53:39 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-14 14:54:07 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
 2025-04-14 14:54:07 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 15:13:22 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:13:24 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 15:13:47 [main] ERROR utilities.LoggerHelper - Test başarısız oldu: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:13:47 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 15:21:18 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:21:21 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 15:21:58 [main] ERROR utilities.LoggerHelper - Test başarısız oldu: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:21:58 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 15:23:19 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:23:21 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 15:23:43 [main] ERROR utilities.LoggerHelper - Test başarısız oldu: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:23:44 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 15:25:33 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:25:35 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 15:26:07 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:26:07 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 15:26:45 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-01] The notification icon should be visible in the admin dashboard panel.
+2025-04-14 15:26:47 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 15:27:15 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-01] The notification icon should be visible in the admin dashboard panel.
+2025-04-14 15:27:15 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 15:27:15 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 15:27:16 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 15:27:43 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 15:27:43 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 15:27:43 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:27:44 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 15:28:30 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 15:28:30 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
