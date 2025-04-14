@@ -293,3 +293,23 @@
 2025-04-14 16:13:26 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-14 16:14:00 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-05] Access to the Notifications List containing the relevant information message should be available from the Notification window.
 2025-04-14 16:14:00 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:15:39 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-01] The Purchase History menu item should be visible and active in the Dashboard sideBar.
+2025-04-14 16:15:41 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:16:12 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-01] The Purchase History menu item should be visible and active in the Dashboard sideBar.
+2025-04-14 16:16:12 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:16:12 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-14 16:16:13 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:16:48 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-14 16:16:48 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:16:48 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
+2025-04-14 16:16:49 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:17:24 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
+2025-04-14 16:17:24 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:17:24 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-04] You should be able to download and view invoice under Action in Purchase History list.
+2025-04-14 16:17:25 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:18:05 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-04] You should be able to download and view invoice under Action in Purchase History list.
+2025-04-14 16:18:05 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:18:05 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-05] Order code, Package code, Delivery Process, Order Details, Order Summary, Payment Type
+2025-04-14 16:18:06 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:18:45 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-05] Order code, Package code, Delivery Process, Order Details, Order Summary, Payment Type
+2025-04-14 16:18:45 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.

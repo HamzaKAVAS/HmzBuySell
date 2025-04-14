@@ -48,6 +48,19 @@ Feature: As an administrator, I would like to have a notifications section on th
     And Hover over the admin profile photo and press Logout.
     And Close the page.
 
+  Scenario: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
+
+    Given Go to the relevant URL and verify that the admin panel has been loaded after completing the relevant login procedures.
+    And Click on the Notification icon.
+    And Click View.
+    Then Verify that the notification page opens.
+    And Click View under Action.
+    Then Verify that access has been granted to the relevant page of the relevant information message.
+    And Hover over the admin profile photo and press Logout.
+    And Close the page.
+
+
+
 
 
 

@@ -300,4 +300,16 @@ public class US018_35_Steps {
         Assertions.assertTrue(adminProfileNotificationsPage.personalNotificationSettingText.isDisplayed());
         ReusableMethods.wait(2);
     }
+
+    @And("Click View under Action.")
+    public void clickViewUnderAction() {
+
+
+    }
+
+    @Then("Verify that access has been granted to the relevant page of the relevant information message.")
+    public void verifyThatAccessHasBeenGrantedToTheRelevantPageOfTheRelevantInformationMessage() {
+
+
+    }
 }
