@@ -20,6 +20,9 @@ public class AdminProfileNotificationsPage {
     @FindBy(xpath = "//*[@*='fa fa-bell']")
     public WebElement notificationBell;
 
+    @FindBy(xpath = "//*[@*='notification_count']")
+    public WebElement notificationCount;
+
 
 
 

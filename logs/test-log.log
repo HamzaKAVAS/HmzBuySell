@@ -233,3 +233,23 @@
 2025-04-13 23:58:31 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-13 23:59:17 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-01] The notification icon should be visible in the admin dashboard panel.
 2025-04-13 23:59:17 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 14:43:30 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:43:33 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 14:43:49 [main] ERROR utilities.LoggerHelper - Test başarısız oldu: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:43:50 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 14:45:13 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:45:15 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 14:45:16 [main] ERROR utilities.LoggerHelper - Test başarısız oldu: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:45:16 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 14:45:49 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:45:51 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 14:45:51 [main] ERROR utilities.LoggerHelper - Test başarısız oldu: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:45:52 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 14:48:12 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:48:14 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 14:48:24 [main] ERROR utilities.LoggerHelper - Test başarısız oldu: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:48:25 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 14:53:37 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:53:39 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 14:54:07 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 14:54:07 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.

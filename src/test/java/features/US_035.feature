@@ -11,3 +11,11 @@ Feature: As an administrator, I would like to have a notifications section on th
     Then Verify that the notification icon is visible.
     And Hover over the admin profile photo and press Logout.
     And Close the page.
+
+  Scenario: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+
+    Given Go to the relevant URL and verify that the admin panel has been loaded after completing the relevant login procedures.
+    Then Notice that the notification icon has a number on it.
+    And Hover over the admin profile photo and press Logout.
+    And Close the page.
+

@@ -219,4 +219,26 @@ public class US018_35_Steps {
         actions.click(loginPages.logoutButton).perform();
         ReusableMethods.wait(2);
     }
+
+    @Given("Go to the relevant URL and verify that the admin panel has been loaded after completing the relevant login procedures.")
+    public void goToTheRelevantURLAndVerifyThatTheAdminPanelHasBeenLoadedAfterCompletingTheRelevantLoginProcedures() {
+
+        driver.get("https://qa.buysellcycle.com/admin/login");
+        ReusableMethods.wait(2);
+        loginPages.emailInput.sendKeys(excelReader.getExcelText("Sheet2", 1, 0));
+        ReusableMethods.wait(2);
+        loginPages.passwordInput.sendKeys(excelReader.getExcelText("Sheet2", 1, 1));
+        ReusableMethods.wait(2);
+        adminProfileNotificationsPage.adminSignInButton.click();
+        ReusableMethods.wait(2);
+        Assertions.assertTrue(adminProfileNotificationsPage.adminProfilePicture.isDisplayed());
+        ReusableMethods.wait(2);
+    }
+
+    @Then("Notice that the notification icon has a number on it.")
+    public void noticeThatTheNotificationIconHasANumberOnIt() {
+
+        Assertions.assertTrue(adminProfileNotificationsPage.notificationCount.isDisplayed());
+        ReusableMethods.wait(2);
+    }
 }
