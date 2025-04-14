@@ -29,6 +29,15 @@ public class AdminProfileNotificationsPage {
     @FindBy(xpath = "(//h3)[1]")
     public WebElement personalNotificationSettingText;
 
+    @FindBy(xpath = "//*[@*='6893']")
+    public WebElement registerCheckmark;
+
+    @FindBy(xpath = "//*[@*='6898']")
+    public WebElement pendingCheckmark;
+
+    @FindBy(xpath = "//*[@*='toast-message']")
+    public WebElement updateSuccessfullyText;
+
 
 
 

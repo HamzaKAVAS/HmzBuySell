@@ -28,4 +28,16 @@ Feature: As an administrator, I would like to have a notifications section on th
     And Hover over the admin profile photo and press Logout.
     And Close the page.
 
+  Scenario: [US_035 => TC-04] The type tab (active/passive) of the notification values in the List on the Personal Notification Setting page should be changeable.
+
+    Given Go to the relevant URL and verify that the admin panel has been loaded after completing the relevant login procedures.
+    And Click on the Notification icon.
+    And Click on the Setting button.
+    Then Verify that the Personal Notification Setting page opens.
+    Then On the Personal Notification Setting page, verify that the Register and Pending buttons can be clicked and changed.
+    Then Verify that the warning message appears after the relevant changes.
+    And Hover over the admin profile photo and press Logout.
+    And Close the page.
+
+
 

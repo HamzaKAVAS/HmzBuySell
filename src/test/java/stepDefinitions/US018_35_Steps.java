@@ -262,4 +262,28 @@ public class US018_35_Steps {
         Assertions.assertTrue(adminProfileNotificationsPage.personalNotificationSettingText.isDisplayed());
         ReusableMethods.wait(2);
     }
+
+    @Then("On the Personal Notification Setting page, verify that the Register and Pending buttons can be clicked and changed.")
+    public void onThePersonalNotificationSettingPageVerifyThatTheRegisterAndPendingButtonsCanBeClickedAndChanged() {
+
+        Assertions.assertTrue(adminProfileNotificationsPage.registerCheckmark.isEnabled());
+        ReusableMethods.wait(2);
+        JSUtilities.clickWithJS(driver, adminProfileNotificationsPage.registerCheckmark);
+        ReusableMethods.wait(2);
+        JSUtilities.clickWithJS(driver, adminProfileNotificationsPage.registerCheckmark);
+        ReusableMethods.wait(2);
+        Assertions.assertTrue(adminProfileNotificationsPage.pendingCheckmark.isEnabled());
+        ReusableMethods.wait(2);
+        JSUtilities.clickWithJS(driver, adminProfileNotificationsPage.pendingCheckmark);
+        ReusableMethods.wait(2);
+        JSUtilities.clickWithJS(driver, adminProfileNotificationsPage.pendingCheckmark);
+        ReusableMethods.wait(2);
+    }
+
+    @Then("Verify that the warning message appears after the relevant changes.")
+    public void verifyThatTheWarningMessageAppearsAfterTheRelevantChanges() {
+
+        Assertions.assertTrue(adminProfileNotificationsPage.updateSuccessfullyText.isDisplayed());
+        ReusableMethods.wait(2);
+    }
 }
