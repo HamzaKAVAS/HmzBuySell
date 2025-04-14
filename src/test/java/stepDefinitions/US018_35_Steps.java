@@ -290,12 +290,14 @@ public class US018_35_Steps {
     @And("Click View.")
     public void clickView() {
 
-
+        adminProfileNotificationsPage.notificationBellView.click();
+        ReusableMethods.wait(2);
     }
 
     @Then("Verify that the notification page opens.")
     public void verifyThatTheNotificationPageOpens() {
 
-
+        Assertions.assertTrue(adminProfileNotificationsPage.personalNotificationSettingText.isDisplayed());
+        ReusableMethods.wait(2);
     }
 }

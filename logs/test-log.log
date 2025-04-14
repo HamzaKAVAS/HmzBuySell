@@ -289,3 +289,7 @@
 2025-04-14 15:56:31 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-14 15:57:19 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-04] The type tab (active/passive) of the notification values in the List on the Personal Notification Setting page should be changeable.
 2025-04-14 15:57:19 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:13:24 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-05] Access to the Notifications List containing the relevant information message should be available from the Notification window.
+2025-04-14 16:13:26 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:14:00 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-05] Access to the Notifications List containing the relevant information message should be available from the Notification window.
+2025-04-14 16:14:00 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.

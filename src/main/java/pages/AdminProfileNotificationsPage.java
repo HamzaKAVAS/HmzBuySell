@@ -38,6 +38,9 @@ public class AdminProfileNotificationsPage {
     @FindBy(xpath = "//*[@*='toast-message']")
     public WebElement updateSuccessfullyText;
 
+    @FindBy(xpath = "//*[.='View']")
+    public WebElement notificationBellView;
+
 
 
 
