@@ -313,3 +313,7 @@
 2025-04-14 16:18:06 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-14 16:18:45 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-05] Order code, Package code, Delivery Process, Order Details, Order Summary, Payment Type
 2025-04-14 16:18:45 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:30:47 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
+2025-04-14 16:30:50 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:31:28 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
+2025-04-14 16:31:28 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.

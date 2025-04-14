@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AdminProfileNotificationsPage {
 
-    public AdminProfileNotificationsPage(){
-        PageFactory.initElements(DriverManager.getDriver(),this);
+    public AdminProfileNotificationsPage() {
+        PageFactory.initElements(DriverManager.getDriver(), this);
     }
 
     @FindBy(id = "sign_in_btn")
@@ -41,7 +41,10 @@ public class AdminProfileNotificationsPage {
     @FindBy(xpath = "//*[.='View']")
     public WebElement notificationBellView;
 
+    @FindBy(xpath = "(//*[@*='save_button_parent'])[1]")
+    public WebElement notificationsPageView;
 
-
+    @FindBy(xpath = "//*[.='Read all']")
+    public WebElement notificationBellReadAll;
 
 }

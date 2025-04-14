@@ -304,12 +304,14 @@ public class US018_35_Steps {
     @And("Click View under Action.")
     public void clickViewUnderAction() {
 
-
+        adminProfileNotificationsPage.notificationsPageView.click();
+        ReusableMethods.wait(2);
     }
 
     @Then("Verify that access has been granted to the relevant page of the relevant information message.")
     public void verifyThatAccessHasBeenGrantedToTheRelevantPageOfTheRelevantInformationMessage() {
 
-
+        Assertions.assertTrue(adminProfileNotificationsPage.personalNotificationSettingText.isDisplayed());
+        ReusableMethods.wait(2);
     }
 }
