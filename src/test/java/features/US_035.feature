@@ -65,6 +65,7 @@ Feature: As an administrator, I would like to have a notifications section on th
     And Click on the Notification icon.
     And Click the Read All button.
     And Hover over the admin profile photo and press Logout.
+    And Close the page.
 
 
 
