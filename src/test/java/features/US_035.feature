@@ -61,6 +61,8 @@ Feature: As an administrator, I would like to have a notifications section on th
 
   Scenario: [US_035 => TC-07] Unread information messages in the Notification window should be marked as read.
 
+    Given Go to the relevant URL and verify that the admin panel has been loaded after completing the relevant login procedures.
+
 
 
 
