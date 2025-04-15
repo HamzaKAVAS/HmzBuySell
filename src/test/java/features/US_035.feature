@@ -64,6 +64,7 @@ Feature: As an administrator, I would like to have a notifications section on th
     Given Go to the relevant URL and verify that the admin panel has been loaded after completing the relevant login procedures.
     And Click on the Notification icon.
     And Click the Read All button.
+    And Hover over the admin profile photo and press Logout.
 
 
 
