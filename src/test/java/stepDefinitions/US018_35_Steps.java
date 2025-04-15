@@ -314,4 +314,11 @@ public class US018_35_Steps {
         Assertions.assertTrue(adminProfileNotificationsPage.personalNotificationSettingText.isDisplayed());
         ReusableMethods.wait(2);
     }
+
+    @And("Click the Read All button.")
+    public void clickTheReadAllButton() {
+
+        adminProfileNotificationsPage.notificationBellReadAll.click();
+        ReusableMethods.wait(2);
+    }
 }
