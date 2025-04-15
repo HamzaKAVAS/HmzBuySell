@@ -317,3 +317,72 @@
 2025-04-14 16:30:50 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
 2025-04-14 16:31:28 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
 2025-04-14 16:31:28 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:37:10 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-01] The notification icon should be visible in the admin dashboard panel.
+2025-04-14 16:37:12 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:37:40 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-01] The notification icon should be visible in the admin dashboard panel.
+2025-04-14 16:37:40 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:37:40 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 16:37:42 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:38:10 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 16:38:10 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:38:10 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 16:38:12 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:38:45 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 16:38:45 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:38:45 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-04] The type tab (active/passive) of the notification values in the List on the Personal Notification Setting page should be changeable.
+2025-04-14 16:38:46 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:39:46 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-04] The type tab (active/passive) of the notification values in the List on the Personal Notification Setting page should be changeable.
+2025-04-14 16:39:46 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:39:46 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-05] Access to the Notifications List containing the relevant information message should be available from the Notification window.
+2025-04-14 16:39:48 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:40:22 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-05] Access to the Notifications List containing the relevant information message should be available from the Notification window.
+2025-04-14 16:40:22 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:40:22 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
+2025-04-14 16:40:23 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:41:02 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
+2025-04-14 16:41:02 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:41:48 [main] INFO  runners.TestRunner - Cucumber Test Runner başlatılıyor...
+2025-04-14 16:41:49 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-01] The Purchase History menu item should be visible and active in the Dashboard sideBar.
+2025-04-14 16:41:51 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:42:20 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-01] The Purchase History menu item should be visible and active in the Dashboard sideBar.
+2025-04-14 16:42:20 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:42:20 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-14 16:42:21 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:42:55 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-02] Shopping history (with Details, Amount, Delivery Status, Payment Status, Payment Status,
+2025-04-14 16:42:55 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:42:55 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
+2025-04-14 16:42:56 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:43:31 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-03] It should be possible to filter according to Payment Status in the Purchase History list.
+2025-04-14 16:43:31 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:43:31 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-04] You should be able to download and view invoice under Action in Purchase History list.
+2025-04-14 16:43:32 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:44:12 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-04] You should be able to download and view invoice under Action in Purchase History list.
+2025-04-14 16:44:12 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:44:13 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_018 => TC-05] Order code, Package code, Delivery Process, Order Details, Order Summary, Payment Type
+2025-04-14 16:44:14 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:44:53 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_018 => TC-05] Order code, Package code, Delivery Process, Order Details, Order Summary, Payment Type
+2025-04-14 16:44:53 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:44:53 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-01] The notification icon should be visible in the admin dashboard panel.
+2025-04-14 16:44:54 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:45:21 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-01] The notification icon should be visible in the admin dashboard panel.
+2025-04-14 16:45:21 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:45:21 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 16:45:22 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:45:50 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-02] There should be a mark (number) on the Notification icon indicating unread notifications.
+2025-04-14 16:45:50 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:45:50 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 16:45:51 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:46:37 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-03] You should be able to access the Personal Notification Setting page from the Notification window.
+2025-04-14 16:46:37 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:46:37 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-04] The type tab (active/passive) of the notification values in the List on the Personal Notification Setting page should be changeable.
+2025-04-14 16:46:38 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:47:26 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-04] The type tab (active/passive) of the notification values in the List on the Personal Notification Setting page should be changeable.
+2025-04-14 16:47:26 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:47:26 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-05] Access to the Notifications List containing the relevant information message should be available from the Notification window.
+2025-04-14 16:47:27 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:48:00 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-05] Access to the Notifications List containing the relevant information message should be available from the Notification window.
+2025-04-14 16:48:00 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-04-14 16:48:00 [main] INFO  utilities.LoggerHelper - Test Başlıyor: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
+2025-04-14 16:48:02 [main] INFO  utilities.LoggerHelper - Driver başlatıldı
+2025-04-14 16:48:40 [main] INFO  utilities.LoggerHelper - Test başarıyla tamamlandı: [US_035 => TC-06] You should be able to access the relevant page of the relevant information message from the Notifications List.
+2025-04-14 16:48:40 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
