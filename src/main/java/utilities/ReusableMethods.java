@@ -1,16 +1,20 @@
 package utilities;
 
 import drivers.DriverManager;
+import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-
+import org.openqa.selenium.*;
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
+import static org.apache.poi.hssf.record.FtPioGrbitSubRecord.length;
+
 
 public class ReusableMethods {
+
 
     public static String getScreenshot(String name) throws IOException {
         // naming the screenshot with the current date to avoid duplication
@@ -27,6 +31,12 @@ public class ReusableMethods {
     }
 
 
+    public static void takeScreenshot(WebDriver driver, String name) {
+        byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        Allure.addAttachment(name, new ByteArrayInputStream(screenshot));
+    }
+
+
     //========Switching Window=====//
     public static void switchToWindow(String targetTitle) {
         String origin = DriverManager.getDriver().getWindowHandle();
@@ -40,14 +50,82 @@ public class ReusableMethods {
     }
 
     // wait
-    public static void wait(int saniye ){
+    public static void wait(int saniye) {
 
         try {
-            Thread.sleep(saniye*1000);
+            Thread.sleep(saniye * 1000);
         } catch (InterruptedException e) {
             System.out.println("Thread.sleep calismadi");
         }
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static String stringmail(int lenght) {
+
+        String karakter = "abcdefghijklmnopqrstuvwxyz0123456789";
+        StringBuilder result = new StringBuilder();
+        Random random = new Random();
+        for (int i = 0; i < length; i++) {
+            result.append(karakter.charAt(random.nextInt(karakter.length())));
+        }
+        return result.toString();
+
+    }
+
+    public static String randommail()
+    {
+        String username=stringmail(8);
+        String domain="@testgmail.com";
+        return username + domain;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
 }

@@ -5,11 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utilities.ExcelReader;
 
-
-
-
 public class LoginPages extends BasePage {
-
 
     ExcelReader excelReader = new ExcelReader("src/test/resources/TestData.xlsx");
 
