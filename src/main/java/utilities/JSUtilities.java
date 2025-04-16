@@ -4,7 +4,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class JSUtilities {
@@ -29,7 +28,7 @@ public class JSUtilities {
         return ((JavascriptExecutor) driver).executeScript("return arguments[0].innerText;", element).toString();
     }
 
-        // A function that highlights the specified element using JavaScriptExecutor.
+    // A function that highlights the specified element using JavaScriptExecutor.
 
     public static void highlightElementWithJS(WebDriver driver, WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='3px solid red'", element);
