@@ -1,14 +1,16 @@
 package pages;
 
 import drivers.DriverManager;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AdminProfileNotificationsPage {
+public class AdminProfileNotificationsPage extends BasePage{
 
-    public AdminProfileNotificationsPage() {
-        PageFactory.initElements(DriverManager.getDriver(), this);
+    public AdminProfileNotificationsPage(WebDriver driver) {
+
+        super(driver);
     }
 
     @FindBy(id = "sign_in_btn")

@@ -20,8 +20,8 @@ public class US018_35_Steps {
     private static final Logger logger = LogManager.getLogger();
     WebDriver driver = Hooks.getDriver();
     LoginPages loginPages = new LoginPages(driver);
-    UserDashboardPage userDashboardPage = new UserDashboardPage();
-    AdminProfileNotificationsPage adminProfileNotificationsPage = new AdminProfileNotificationsPage();
+    UserDashboardPage userDashboardPage = new UserDashboardPage(driver);
+    AdminProfileNotificationsPage adminProfileNotificationsPage = new AdminProfileNotificationsPage(driver);
     ExcelReader excelReader = new ExcelReader("src/test/resources/TestData.xlsx");
     Actions actions = new Actions(driver);
 

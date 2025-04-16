@@ -1,14 +1,16 @@
 package pages;
 
 import drivers.DriverManager;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class UserDashboardPage {
+public class UserDashboardPage extends BasePage {
 
-    public UserDashboardPage() {
-        PageFactory.initElements(DriverManager.getDriver(), this);
+
+    public UserDashboardPage(WebDriver driver) {
+        super(driver);
     }
 
     @FindBy(xpath = "(//*[@*='position-relative d-flex align-items-center'])[1]")
