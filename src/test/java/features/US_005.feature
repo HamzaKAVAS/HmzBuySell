@@ -19,4 +19,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Given The user opens the browser and enters the URL address specified in the data into the URL bar.
     When  the user navigates to the login page
     Then  the user verifies if the SignIn form in the top left corner is visible
+    When  The user closes the browser.
 
