@@ -14,3 +14,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Then  the user verifies if the image and the text "Turn your ideas into reality." are visible on the right side of the page
     When  The user closes the browser.
 
+  Scenario: [US_005 => TC-03] Check if the SignIn form is present in the left section of the Login page.
+
