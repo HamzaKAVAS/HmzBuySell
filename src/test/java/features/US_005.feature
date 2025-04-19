@@ -21,3 +21,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Then  the user verifies if the SignIn form in the top left corner is visible
     When  The user closes the browser.
 
+  Scenario: [US_005 => TC-04] Check if the SignIn button is visible and active on the Login page.
+
