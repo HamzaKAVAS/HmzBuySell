@@ -28,3 +28,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Then the user verifies if the SignIn button is visible and active
     When  The user closes the browser.
 
+  Scenario: [US_005 => TC-05] Check if the "Remember me" checkbox is selectable in the Login form.
+
