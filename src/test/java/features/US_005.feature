@@ -38,4 +38,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
   Scenario: [US_005 => TC-06] Check if the "Forgot Password" link is clickable on the Login page.
 
     Given The user opens the browser and enters the URL address specified in the data into the URL bar.
+    When  the user navigates to the login page
 
