@@ -35,3 +35,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Then  the user verifies if the checkbox is selectable
     When  The user closes the browser.
 
+  Scenario: [US_005 => TC-06] Check if the "Forgot Password" link is clickable on the Login page.
+
