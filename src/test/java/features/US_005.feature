@@ -41,4 +41,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     When  the user navigates to the login page
     And   the user clicks on the "Forgot Password" link
     Then  the user verifies if they are redirected to the correct page
+    When  The user closes the browser.
 
