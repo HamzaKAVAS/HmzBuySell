@@ -43,3 +43,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Then  the user verifies if they are redirected to the correct page
     When  The user closes the browser.
 
+  Scenario: [US_005 => TC-07] Check if the "Register" link is clickable on the Login page.
+
