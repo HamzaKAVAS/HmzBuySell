@@ -58,4 +58,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     When  the user navigates to the login page
     And   the user attempts to sign in with an invalid email and password by clicking the 'Sign In' button
     Then  the user checks for error messages
+    When  The user closes the browser.
 
