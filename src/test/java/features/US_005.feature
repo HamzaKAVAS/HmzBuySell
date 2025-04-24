@@ -54,3 +54,5 @@ Feature: As a user, I would like to be able to log in with the email and passwor
   Scenario: [US_005 => TC-08] Check if error messages are displayed when the
   SignIn button is clicked with invalid credentials.
 
+    Given The user opens the browser and enters the URL address specified in the data into the URL bar.
+
