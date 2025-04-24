@@ -51,3 +51,6 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Then  the user verifies if they are redirected to the correct page
     When  The user closes the browser.
 
+  Scenario: [US_005 => TC-08] Check if error messages are displayed when the
+  SignIn button is clicked with invalid credentials.
+
