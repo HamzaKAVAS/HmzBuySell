@@ -60,3 +60,6 @@ Feature: As a user, I would like to be able to log in with the email and passwor
     Then  the user checks for error messages
     When  The user closes the browser.
 
+  Scenario: [US_005 => TC-09] Check if a successful login occurs when the
+  SignIn button is clicked with valid credentials.
+
